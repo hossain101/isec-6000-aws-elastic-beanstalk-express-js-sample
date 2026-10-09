@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         // Docker Hub details
-        DOCKER_CREDENTIALS_ID = '8672f384-f8a2-4982-9e4b-205929ae05ed'
+        DOCKER_CREDENTIALS_ID = 'docker-hub-credentials'
         IMAGE_NAME = 'hossain101/isec6000-app'
         IMAGE_TAG = "build-${env.BUILD_NUMBER}"
     }
